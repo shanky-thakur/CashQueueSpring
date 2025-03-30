@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 
 @RestController
+@CrossOrigin(origins = "http://localhost:3000")
 @RequestMapping("/transactions")
 public class TransactionController {
 
